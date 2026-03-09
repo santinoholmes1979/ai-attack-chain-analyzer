@@ -1,4 +1,10 @@
 # AI Attack Chain Analyzer
+![Python](https://img.shields.io/badge/python-3.x-blue)
+![Streamlit](https://img.shields.io/badge/dashboard-streamlit-red)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Domain](https://img.shields.io/badge/domain-cybersecurity-darkgreen)
+
+![SOC Dashboard](screenshots/dashboard-overview.png)
 
 ![SOC Dashboard](screenshots/dashboard-overview.png)
 
