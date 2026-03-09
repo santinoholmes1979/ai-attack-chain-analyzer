@@ -1,0 +1,44 @@
+[
+  {
+    "timestamp": "2026-03-09T11:00:00",
+    "host": "WKSTN-03",
+    "user": "bwilson",
+    "event_type": "bulk_file_access",
+    "process_name": "explorer.exe",
+    "command_line": "",
+    "source_ip": "10.0.4.18",
+    "destination_ip": "",
+    "severity": "medium",
+    "attack_stage": "Collection",
+    "technique_id": "T1213",
+    "technique_name": "Data from Information Repositories"
+  },
+  {
+    "timestamp": "2026-03-09T11:08:00",
+    "host": "WKSTN-03",
+    "user": "bwilson",
+    "event_type": "archive_creation",
+    "process_name": "7z.exe",
+    "command_line": "7z a finance_docs.7z",
+    "source_ip": "10.0.4.18",
+    "destination_ip": "",
+    "severity": "high",
+    "attack_stage": "Collection",
+    "technique_id": "T1560",
+    "technique_name": "Archive Collected Data"
+  },
+  {
+    "timestamp": "2026-03-09T11:15:00",
+    "host": "WKSTN-03",
+    "user": "bwilson",
+    "event_type": "cloud_upload",
+    "process_name": "chrome.exe",
+    "command_line": "",
+    "source_ip": "10.0.4.18",
+    "destination_ip": "198.51.100.200",
+    "severity": "high",
+    "attack_stage": "Exfiltration",
+    "technique_id": "T1567",
+    "technique_name": "Exfiltration Over Web Service"
+  }
+]

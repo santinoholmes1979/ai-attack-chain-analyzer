@@ -1,0 +1,58 @@
+[
+  {
+    "timestamp": "2026-03-09T10:00:00",
+    "host": "WKSTN-19",
+    "user": "adoe",
+    "event_type": "malicious_attachment_opened",
+    "process_name": "winword.exe",
+    "command_line": "",
+    "source_ip": "10.0.6.44",
+    "destination_ip": "198.51.100.77",
+    "severity": "medium",
+    "attack_stage": "Initial Access",
+    "technique_id": "T1566.001",
+    "technique_name": "Spearphishing Attachment"
+  },
+  {
+    "timestamp": "2026-03-09T10:03:00",
+    "host": "WKSTN-19",
+    "user": "adoe",
+    "event_type": "powershell_execution",
+    "process_name": "powershell.exe",
+    "command_line": "powershell.exe -nop -w hidden",
+    "source_ip": "10.0.6.44",
+    "destination_ip": "203.0.113.120",
+    "severity": "high",
+    "attack_stage": "Execution",
+    "technique_id": "T1059.001",
+    "technique_name": "PowerShell"
+  },
+  {
+    "timestamp": "2026-03-09T10:06:00",
+    "host": "WKSTN-19",
+    "user": "adoe",
+    "event_type": "c2_beaconing",
+    "process_name": "powershell.exe",
+    "command_line": "powershell.exe -nop -w hidden",
+    "source_ip": "10.0.6.44",
+    "destination_ip": "45.77.200.10",
+    "severity": "high",
+    "attack_stage": "Command and Control",
+    "technique_id": "T1071",
+    "technique_name": "Application Layer Protocol"
+  },
+  {
+    "timestamp": "2026-03-09T10:12:00",
+    "host": "WKSTN-19",
+    "user": "adoe",
+    "event_type": "runkey_persistence",
+    "process_name": "reg.exe",
+    "command_line": "reg add HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run",
+    "source_ip": "10.0.6.44",
+    "destination_ip": "",
+    "severity": "high",
+    "attack_stage": "Persistence",
+    "technique_id": "T1547.001",
+    "technique_name": "Registry Run Keys / Startup Folder"
+  }
+]
