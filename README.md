@@ -1,5 +1,9 @@
 # AI Attack Chain Analyzer
 
+![SOC Dashboard](screenshots/dashboard-overview.png)
+
+AI-assisted SOC investigation dashboard that reconstructs cyber attack chains from endpoint telemetry and maps activity to MITRE ATT&CK techniques.
+
 AI-assisted SOC investigation dashboard that reconstructs cyber attack chains from endpoint telemetry and maps activity to MITRE ATT&CK techniques.
 
 This project simulates multi-stage cyber intrusion scenarios and demonstrates how detection engineering pipelines convert raw telemetry into actionable security investigations.
@@ -33,7 +37,23 @@ Each scenario demonstrates how different attacker behaviors appear in telemetry 
 
 ---
 
+## Dashboard Preview
+
+### Attack Graph
+
+![Attack Graph](screenshots/attack-graph.png)
+
+### Attack Timeline
+
+![Attack Timeline](screenshots/attack-timeline.png)
+
+### Investigation Filters
+
+![Investigation Filters](screenshots/investigation-filters.png)
+
 ## Dashboard Capabilities
+
+---
 
 The investigation dashboard provides:
 
@@ -45,6 +65,7 @@ The investigation dashboard provides:
 - Evidence summary and key findings
 - Executive summary with attacker objective and recommended response
 - Exportable analyst investigation report
+
 
 ---
 
