@@ -17,8 +17,6 @@
 
 AI-assisted SOC investigation dashboard that reconstructs cyber attack chains from endpoint telemetry and maps activity to MITRE ATT&CK techniques.
 
-AI-assisted SOC investigation dashboard that reconstructs cyber attack chains from endpoint telemetry and maps activity to MITRE ATT&CK techniques.
-
 This project simulates multi-stage cyber intrusion scenarios and demonstrates how detection engineering pipelines convert raw telemetry into actionable security investigations.
 
 ---
