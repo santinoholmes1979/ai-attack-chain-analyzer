@@ -2,6 +2,19 @@
 
 ![SOC Dashboard](screenshots/dashboard-overview.png)
 
+## Key Capabilities
+
+- **Attack Chain Reconstruction** – Correlates endpoint telemetry into multi-stage adversary attack chains.
+- **MITRE ATT&CK Mapping** – Maps observed activity to ATT&CK tactics and techniques for investigation context.
+- **SOC Investigation Dashboard** – Interactive Streamlit interface for threat hunting and security analysis.
+- **Threat Reasoning Engine** – Infers attacker objectives, impact, and recommended response actions.
+- **Attack Graph Visualization** – Visualizes adversary progression across the attack lifecycle.
+- **Timeline Analysis** – Displays adversary activity progression across time.
+- **Scenario Simulation** – Includes phishing intrusion, credential theft, ransomware precursor, and insider misuse cases.
+- **Analyst Reporting** – Generates exportable investigation summaries for incident response documentation.
+
+---
+
 AI-assisted SOC investigation dashboard that reconstructs cyber attack chains from endpoint telemetry and maps activity to MITRE ATT&CK techniques.
 
 AI-assisted SOC investigation dashboard that reconstructs cyber attack chains from endpoint telemetry and maps activity to MITRE ATT&CK techniques.
